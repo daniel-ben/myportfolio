@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #1E1D1D;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	width: 100vw;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 40px;	
+	height: 100px;
+}
+
+.logo {
+	width: 90px;
+	z-index: 99;
+}
+
+.menu-icon {
+	align-self: center;
+	height: 30px;
+	width: 35px;
+	z-index: 99;
+}
+
+.menu-icon:hover {
+	width: 36px;
+}
+
+.menu {
+	background: #FCE837;
+	border-radius: 0 0 50px 50px;
+	height: 340px;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: opacity 1s;
+	width: 370px;
+	max-width: 100vw;
+}
+
+.menu-list {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-family: KansasNew;
+	font-size: 2em;
+	height: 100%;
+	margin-top: 3em;
+	width: 100%;
+}
+
+.menu-item {
+	padding: 15px;
+}
+
+.menu-item a {
+	color: white;
+	text-decoration: none;
+}
+
+.home {
+	font-weight: bold;
+	text-decoration: underline;
+}

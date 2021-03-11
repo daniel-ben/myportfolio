@@ -1,5 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
+@font-face {
+	font-family: kansasnew, serif;
+	font-style: normal;
+	font-weight: 400;
+}
 
 body {
 	background: #1E1D1D;
@@ -110,6 +115,11 @@ body {
 .home-button:hover {
 	padding: 18px;
 	box-shadow: 0px 0px 5px 0px white;
+}
+
+.home-button a {
+	color: black;
+	text-decoration: none;
 }
 
 
