@@ -1,6 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+	font-family: professor-minty, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
 body {
 	background: #1E1D1D;
 	height: 100vh;
@@ -84,7 +90,7 @@ body {
 
 .intro {
 	color: white;
-	font-family: Chiller, sans-serif;
+	font-family: "Professor Minty", sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 2em;

@@ -2,11 +2,9 @@
 /* CSS Document */
 
 body {
-	background: #1E1D1D;
+	background: #F5F5F5;
 	height: 100vh;
 	width: 100%;
-	margin: 0;
-	width: 100vw;
 }
 
 .header {
@@ -53,7 +51,7 @@ body {
 	font-size: 2em;
 	height: 100%;
 	margin-top: 3em;
-	width: 100%;
+	width: 99%;
 }
 
 .menu-item {
@@ -65,7 +63,152 @@ body {
 	text-decoration: none;
 }
 
-.home {
+
+main {
+	padding: 0 0 50px;
+}
+
+.work {
 	font-weight: bold;
 	text-decoration: underline;
 }
+
+.title {
+	font-family: kansasnew, serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2.5em;
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+.work_section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.written_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	width: 80%;
+}
+
+.subtitle {
+	font-family: kansasnew, serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.3em;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.text {
+	font-family: kansasnew, serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 1em;
+}
+
+.tools {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px 0;
+	width: 80vw;
+}
+
+.image-container {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 70vw;
+}
+
+.work-images {
+	width: 80%;
+	height: 100%;
+	margin: 1em 0;
+}
+
+.fa-plus-circle {
+	color: #E09A31;
+	font-size: 2em;
+	height: 1em;
+	transition: 0.5s;
+	width: 2em;
+}
+
+.fa-plus-circle:hover {
+	font-size: calc(2em + 3px);
+}
+
+
+.footer {
+	background: #010101;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 100vw;
+	position: fixed;
+	bottom: 0;
+}
+
+.fab {
+	color: white;
+	font-size: 1.2em;
+	padding: 0 1em;
+}
+
+@media (min-width: 780px){	
+	.menu-icon {
+		display: none;
+	}
+	
+	.menu {
+		background: none;
+		height: 100px;
+		opacity: 1;
+		width: 500px;
+	}
+	
+	.menu-list {
+		font-size: 1.5em;
+		flex-direction: row;
+		margin: 0;
+	}
+	
+	.menu-item a {
+		color: black;
+	}
+	
+	.work_section {
+		flex-direction: row;
+		justify-content: space-around;
+		margin: 2em 0;
+	}
+	
+	.tools {
+		width: 100%;
+	}
+	
+	.written_content {
+		margin: 0;
+		width: 40%;
+	}
+	
+	.image-container {
+		width: 50%;
+	}
+	
+	.templates .image-container {
+		order: -1;
+	}
+	
+	.templates img {
+		order: 99;
+	}
